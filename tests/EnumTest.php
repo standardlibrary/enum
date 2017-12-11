@@ -11,6 +11,7 @@ declare(strict_types=1);
 namespace StandardLibrary\Tests\Enums;
 
 use StandardLibrary\Enum;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Test case for enum base class
@@ -24,7 +25,7 @@ use StandardLibrary\Enum;
  * @author Simon Deeley <simondeeley@users.noreply.github.com>
  * @final
  */
-final class BooleanTest extends EnumsTestCase
+final class EnumTest extends TestCase
 {
     /**
      * Test should return 'ENUM'
