@@ -19,7 +19,7 @@ use StandardLibrary\Contracts\Type\EnumType;
 *
 * @author Simon Deeley <simondeeley@users.noreply.github.com>
 */
-abstract class EnumTestCase extends TestCase
+abstract class EnumsTestCase extends TestCase
 {
     /**
      * @var string
