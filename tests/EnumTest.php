@@ -36,22 +36,6 @@ final class EnumTest extends TestCase
      */
     final public function shouldReturnEnum(): void
     {
-        $enum = $this->getMockForAbstractClass(Enum::class);
-
-        $this->assertEquals('ENUM', $enum::getType());
-    }
-
-    /**
-     * Test should return null as value is not set
-     *
-     * @test
-     * @final
-     * @return void
-     */
-    final public function shouldReturnNullAsValueIsNotSet(): void
-    {
-        $enum = $this->getMockForAbstractClass(Enum::class);
-
-        $this->assertNull($enum->getValue());
+        $this->assertEquals('ENUM', Enum::getType());
     }
 }
