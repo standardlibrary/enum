@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+declare(strict_types = 1);
 /**
  * This file is part of the Standard Library Enum package.
  * For the full copyright information please view the LICENCE file that was

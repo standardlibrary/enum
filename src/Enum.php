@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+declare(strict_types = 1);
 /**
  * This file is part of the Standard Library Enum package.
  * For the full copyright information please view the LICENCE file that was
@@ -64,7 +64,7 @@ abstract class Enum extends ImmutableObject implements EnumType
      * @return self
      * @throws InvalidEnumValueException - Thrown if the value passed is not an enum constant
      */
-    final public static function __callStatic(string $method, array $args = [ ]): self
+    final public static function __callStatic(string $method, array $args = []): self
     {
         try {
             return new static(strtoupper($method));
