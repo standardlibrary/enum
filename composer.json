@@ -1,0 +1,40 @@
+{
+  "name": "standardlibrary/enum",
+  "description": "Reuseable interface for describing PHP objects that can be cast to a string",
+  "type": "library",
+  "keywords": ["php", "enum", "library", "immutable"],
+  "homepage": "https://github.com/standardlibrary",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Simon Deeley",
+      "email": "simondeeley@users.noreply.github.com",
+      "homepage": "https://github.com/simondeeley",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/standardlibrary/enum/issues",
+    "source": "https://github.com/standardlibrary/enum",
+    "docs": "https://github.com/standardlibrary/enum/blob/master/README.md"
+  },
+  "require": {
+    "php": "~7.1",
+    "standardlibrary/type": "dev-master",
+    "standardlibrary/casts-to-string": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "StandardLibrary\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+   "extra": {
+       "branch-alias": {
+           "dev-master": "1.0-dev"
+       }
+   },
+   "replace": {
+     "simondeeley/enum": "*"
+   }
+}
