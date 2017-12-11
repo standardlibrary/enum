@@ -8,6 +8,8 @@ declare(strict_types=1);
  * @copyright Simon Deeley 2017
  */
 
+namespace StandardLibrary\Tests\Enums;
+
 use StandardLibrary\Enums\Boolean;
 
 /**

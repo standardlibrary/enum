@@ -28,13 +28,18 @@
       "StandardLibrary\\": "src/"
     }
   },
+  "autoload-dev": {
+      "psr-4": {
+          "StandardLibrary\\Tests\\": "tests/"
+      }
+  }
   "minimum-stability": "dev",
-   "extra": {
-       "branch-alias": {
-           "dev-master": "1.0-dev"
-       }
-   },
-   "replace": {
-     "simondeeley/enum": "*"
-   }
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "replace": {
+  "simondeeley/enum": "*"
+  }
 }

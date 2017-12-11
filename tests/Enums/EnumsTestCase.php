@@ -8,6 +8,8 @@ declare(strict_types=1);
  * @copyright Simon Deeley 2017
  */
 
+namespace StandardLibrary\Tests\Enums;
+
 use PHPUnit\Framework\TestCase;
 use StandardLibrary\Contracts\CastsToString;
 use StandardLibrary\Contracts\Type\EnumType;
